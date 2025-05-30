@@ -165,39 +165,7 @@ border-radius: 16px;
     margin-top: 30px;
 }
 
- .carousel {
-      width: 100%;
-      max-width: 600px;
-      margin: auto;
-      overflow: hidden;
-      position: relative;
-    }
 
-    .slides {
-      display: flex;
-      width: 300%;
-      animation: slide 9s infinite;
-    }
-
-    .slide {
-      width: 100%;
-      flex-shrink: 0;
-    }
-
-    .slide img {
-      width: 100%;
-      display: block;
-    }
-
-    @keyframes slide {
-      0%   { margin-left: 0; }
-      33%  { margin-left: 0; }
-      36%  { margin-left: -100%; }
-      66%  { margin-left: -100%; }
-      69%  { margin-left: -200%; }
-      99%  { margin-left: -200%; }
-      100% { margin-left: 0; }
-    }
 
 
 
